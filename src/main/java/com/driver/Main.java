@@ -6,8 +6,9 @@ public class Main {
 
         RWOnly obj = new RWOnly();
 
-        obj.setter(5);
-        obj.getter();
+        obj.setter("encapsulation");
+        String ans = obj.getter();
+        System.out.println(ans);
     }
   
 }
