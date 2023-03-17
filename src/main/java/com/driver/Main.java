@@ -6,7 +6,7 @@ public class Main {
 
         RWOnly obj = new RWOnly();
 
-        obj.setter("encapsulation");
+        obj.setter(5);
         obj.getter();
     }
   
